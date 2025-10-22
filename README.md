@@ -1,3 +1,3 @@
-# 4H.WebApplication.Spa
+# 4h.LabManager.FrontEnd
 
-### This is a SinglePageApplication of the project.
+### This is a FrontEndof the project.
