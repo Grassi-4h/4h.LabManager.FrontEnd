@@ -1,3 +1,3 @@
-# 4H.WebApplication.Template
+# 4H.WebApplication.Spa
 
-### This is a simple template of the structure to utilize for this type of project
+### This is a SinglePageApplication of the project.
