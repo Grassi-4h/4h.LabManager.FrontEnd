@@ -29,5 +29,5 @@ window.onload = function() {
 
 function handleCredentialResponse(response) {
     console.log("JWT: " + response.credential);
-    document.getElementById("loginText").innerText = "Hai effettuato l'accesso con successo!";
+    // document.getElementById("loginText").innerText = "Hai effettuato l'accesso con successo!";
 }
