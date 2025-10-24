@@ -7,27 +7,31 @@ window.onload = function() {
     });
 };
 
-    function initGoogle() {
+function initGoogle() {
 
-        google.accounts.id.initialize({
-            client_id: CLIENT_ID,
-            callback: handleCredentialResponse, 
-        });
+    google.accounts.id.initialize({
+        client_id: CLIENT_ID,
+        callback: handleCredentialResponse, 
+    });
 
-        google.accounts.id.renderButton(
-            document.getElementById("googleLoginBtn"),
-            { 
-                theme: "outline", 
-                text: "continue_with",
-                size: "large", 
-                width: "300",
-                shape: "pill"
-            } 
-        );
-    }
-    window.onload = initGoogle;
+    google.accounts.id.renderButton(
+        document.getElementById("googleLoginBtn"),
+        { 
+            theme: "outline", 
+            text: "continue_with",
+            size: "large", 
+            width: "300",
+            shape: "pill"
+        } 
+    );
+}
+window.onload = initGoogle;
+
+function handleJWTDecode(responce) {
+    // Decode JWT token
+}
 
 function handleCredentialResponse(response) {
-    // console.log("JWT: " + response.credential); TO USE ONLY FOR TESTING PURPOSES
+    handleJWTDecode(response);
     document.getElementById("loginText").innerText = "Hai effettuato l'accesso con successo!";
 }
