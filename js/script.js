@@ -28,6 +28,6 @@ window.onload = function() {
     window.onload = initGoogle;
 
 function handleCredentialResponse(response) {
-    console.log("JWT: " + response.credential);
-    // document.getElementById("loginText").innerText = "Hai effettuato l'accesso con successo!";
+    // console.log("JWT: " + response.credential);
+    document.getElementById("loginText").innerText = "Hai effettuato l'accesso con successo!";
 }
