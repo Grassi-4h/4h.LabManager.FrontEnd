@@ -1,3 +1,3 @@
 # 4h.LabManager.FrontEnd
 
-### This is a FrontEndof the project.
+### This is the FrontEnd of the LabManager project.
