@@ -25,6 +25,7 @@ function initGoogle() {
         } 
     );
 }
+
 window.onload = initGoogle;
 
 function handleJWTDecode(responce) {
