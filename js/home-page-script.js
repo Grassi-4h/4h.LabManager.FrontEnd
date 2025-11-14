@@ -4,7 +4,7 @@ function handleLoginRedirect()
 
     loginButton.onclick = function()
     {
-        window.location.href = "../pages/login-page.html";
+        window.location.href = "./pages/login-page.html";
     }
 }
 
