@@ -16,4 +16,3 @@ function handleLoginRedirect()
 }
 
 window.onload = handleLoginRedirect;
-
