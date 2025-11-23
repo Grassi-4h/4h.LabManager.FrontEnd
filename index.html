@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script src="./js/home-page-script.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Lab Manager</title>
@@ -16,8 +15,8 @@
         <div class="w-full h-full flex items-center justify-between p-2">
 
             <div class="flex items-center gap-3">
-                <img src="./resources/grassi-logo.svg" alt="Grassi logo" class="h-12 ">
-                <h3 class="text-gray-800 font-bold text-2xl">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 -960 960 960"><path d="M480-120 200-272v-240L40-600l440-240 440 240v320h-80v-276l-80 44v240zm0-332 274-148-274-148-274 148zm0 241 200-108v-151L480-360 280-470v151zm0-151"/></svg>
+                <h3 class=" font-bold text-2xl">
                     Lab Manager
                 </h3>
             </div>
@@ -34,7 +33,7 @@
                 <button id="login-button2" class="text-xl text-black px-4 p-1 rounded-2xl shadow-[0_8px_20px_0_rgba(0,0,0,0.65)] backdrop-blur-2xl bg-white/18 hover:cursor-pointer transition delay-50 duration-300 ease-in-out hover:bg-white hover:text-black hover:scale-110">Login</button>
             </div>
         </div>
-        <div class="mt-35 p-4 max-w-xs rounded-2xl mx-auto bg-white/10 backdrop-blur-xs border border-white/40 shadow-[0_8px_20px_0_rgba(0,0,0,0.65)]">
+        <div class="mt-13 p-4 max-w-xs rounded-2xl mx-auto bg-white/10 backdrop-blur-xs border border-white/40 shadow-[0_8px_20px_0_rgba(0,0,0,0.65)]">
             <h1 class="font-bold text-center">I Developer</h1>
         </div>
         <div class="flex flex-wrap gap-4 justify-center mt-6">
@@ -57,18 +56,13 @@
             </div>
         </div>
     </div>
-    <div class="mt-3 mx-2 mb-2 p-5 overflow-auto rounded-2xl bg-white/10 backdrop-blur-xs justify-center items-center border border-white/40 shadow-[0_8px_20px_0_rgba(0,0,0,0.65)]" >
-            <div class="flex gap-4">
-                <div class="flex flex-col max-w-3xs bg-white/40 rounded-2xl p-6 border border-white/40 shadow-[0_8px_20px_0_rgba(0,0,0,0.65)]" >
-                    <img src="./resources/images.png" class="rounded-full w-10 h-10 ">
-                    <p class="m-3 font-bold">I.T.T.S Carlo Grassi</p>
-                </div>
-                <div class="text-right px-6 bg-white/40 rounded-2xl p-6 border border-white/40 shadow-[0_8px_20px_0_rgba(0,0,0,0.65)]" >
-                    <p>
-                        github test
-                    </p>
-                </div>
-            </div>
-        </div>
+    <div class="mt-3 mx-2 mb-2 p-5 rounded-2xl bg-white/10 backdrop-blur-xs 
+            flex items-center justify-center gap-3 border border-white/40 
+            shadow-[0_8px_20px_0_rgba(0,0,0,0.65)]">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 -960 960 960"><path d="M480-120 200-272v-240L40-600l440-240 440 240v320h-80v-276l-80 44v240zm0-332 274-148-274-148-274 148zm0 241 200-108v-151L480-360 280-470v151zm0-151"/></svg>
+        <p><b>I.T.T.S Carlo Grassi © 2025</b></p>
+        <a href="https://www.itisgrassi.edu.it/" class="ml-2 hover:underline"><b>HomePage Grassi</b></a>
+        <a href="https://github.com/Grassi-4h/4h.LabManager.FrontEnd" class="ml-2 hover:underline"><b>Github</b></a>
+    </div>
 </body>
 </html>
