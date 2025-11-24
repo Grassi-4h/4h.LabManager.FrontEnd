@@ -1,13 +1,11 @@
 #background{
-    background-image: url(../resources/login-wallpaper.jpg);
+    background-image: url(../resources/wallpapers/wallpaper.jpg);
     background-size: cover;
     min-height: 100vh;
     overflow-y: scroll;
 }
 
-/* Disable the Scroll bar */
 body::-webkit-scrollbar{
     display: none; 
 }
-
 
