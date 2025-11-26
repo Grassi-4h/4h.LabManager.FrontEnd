@@ -35,4 +35,5 @@ function handleJWTDecode(responce) {
 function handleCredentialResponse(response) {
     handleJWTDecode(response);
     document.getElementById("loginText").innerText = "Hai effettuato l'accesso con successo!";
+    window.location.href = "app-page.html"
 }
