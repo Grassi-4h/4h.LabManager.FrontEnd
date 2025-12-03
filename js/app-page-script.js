@@ -23,7 +23,7 @@ function selectFirstOption() {
 
     const bottoneOpzione1 = document.getElementById('btnOpzione1');
     const contenutoCentrale = document.getElementById('contenutoCentrale');
-    const logo = document.getElementById('logo-app-header')
+    const opzioni = document.getElementById('opzioniBTN')
 
         bottoneOpzione1.onclick = function() {
 
@@ -48,9 +48,9 @@ function selectFirstOption() {
             contenutoCentrale.innerHTML = '';
         }
 
-        logo.onclick = ripristinaStatoIniziale;
+        opzioni.onclick = ripristinaStatoIniziale;
 
-        logo.style.cursor = 'pointer';
+        opzioni.style.cursor = 'pointer';
 
 }
 
