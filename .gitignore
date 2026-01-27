@@ -13,3 +13,6 @@
 
 # Env Files
 .env
+
+# IntelliJ Configs
+.idea
